@@ -69,7 +69,7 @@
 
 **方式 A：命令行**（装有 git）：
 ```bash
-git clone https://github.com/<仓库地址>/prompt-consultant.git
+git clone https://github.com/looyea/prompt-consultant.git
 cd prompt-consultant
 ```
 **方式 B：不用命令行**：GitHub 页面绿色按钮 `Code → Download ZIP`，解压到任意文件夹。就这样。没有任何依赖：不用 npm/pip/node，库里只有 .md 文本文件，**右键用记事本就能打开每一个**。
