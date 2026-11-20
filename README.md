@@ -69,8 +69,8 @@
 
 **方式 A：命令行**（装有 git）：
 ```bash
-git clone https://github.com/looyea/prompt-consultant.git
-cd prompt-consultant
+git clone https://github.com/looyea/PromptEngine.git
+cd PromptEngine
 ```
 **方式 B：不用命令行**：GitHub 页面绿色按钮 `Code → Download ZIP`，解压到任意文件夹。就这样。没有任何依赖：不用 npm/pip/node，库里只有 .md 文本文件，**右键用记事本就能打开每一个**。
 
@@ -137,7 +137,7 @@ cd prompt-consultant
 - **交付物**（提示词/Spec/方案 md）你自己存进项目文件夹——换任何 AI、换到 Suno/Midjourney/编码工具，纯文本到哪都能用。
 - **上下文卡**（套餐模式的项目档案）留在项目里——下次改版只改卡，重跑受影响的几条提示词，不用重头访谈。
 - **库本体**永远常青：纯 markdown，无服务器无依赖，U 盘拷走就能用。你的每个项目攒下的卡，就是你自己的第二层 Hyper Set。
-- 建议仓库布局：本库放 `~/prompt-consultant/`，你的项目里放一个 `CONTEXT_CARD.md` + 编号提示词文件——引擎的"文件写入与产物约定模块"会引导 AI 自动这么干。
+- 建议仓库布局：本库放 `~/PromptEngine/`，你的项目里放一个 `CONTEXT_CARD.md` + 编号提示词文件——引擎的"文件写入与产物约定模块"会引导 AI 自动这么干。
 
 ## 第 5 步 · 怎么升级
 
